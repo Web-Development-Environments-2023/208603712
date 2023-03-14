@@ -1,7 +1,53 @@
-#menu
-{
+#menu {
 	position: fixed;
 	width: 100%;
 	height: 35px;
-	background: white;
+	background: beige;
+}
+
+#menu-outer {
+	height: 84px;
+	background: beige;
+}
+
+.table {
+	display: table;
+	/* Allow the centering to work */
+	margin: 0 auto;
+	background: beige;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	background: beige;
+}
+
+ul#horizontal-list li {
+	display: inline;
+	background: beige;
+}
+
+a:link {
+	color: brown;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: brown;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: brown;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:active {
+	color: brown;
+	background-color: transparent;
+	text-decoration: underline;
 }
