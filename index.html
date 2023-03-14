@@ -114,9 +114,9 @@
     <br />
     <br />
     <h1>My Photos</h1>
-    <img src="2.jpg" width="400" height="225">
-    <img src="3.jpg" width="400" height="225">
-    <img src="l-intro-1658260021.jpg" width="400" height="225">
+    <img src="2.jpg" width="600" height="350">
+    <img src="3.jpg" width="600" height="350">
+    <img src="4.jpg" width="1000" height="700">
 
     <br />
     <br />
@@ -235,6 +235,41 @@
     <br />
     <br />
     <h1>Contact Me</h1>
+    <form method="POST" action="/cgi-bin/formmail">
+
+      <input type="hidden" name="recipient" value="offerwal@post.bgu.ac.il">
+      <input type="hidden" name="subject" value="Feedback Form">
+      <input type="hidden" name="redirect" value="main.html">
+
+      <p><strong>Email: </strong>
+        <input name="email" type="text" size="25">
+      </p>
+
+      <p><strong>Message:</strong>
+        <textarea name="Message" rows="4" cols="36"></textarea>
+      </p>
+
+      <!-- The <select> tag presents a drop down menu with -->
+      <!-- choices indicated by the <option> tags          -->
+      <p><strong>Rate our site with a smileyface:</strong>
+        <select name="rating">
+          <option selected=""> :D
+          </option>
+          <option>:)
+          </option>
+          <option>:|
+          </option>
+          <option>:/
+          </option>
+          <option>:(
+          </option>
+          <option>:'(
+          </option>
+        </select>
+      </p>
+
+      <input type="submit" value="Send">
+    </form>
     <br />
     <br />
     <br />
